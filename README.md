@@ -41,19 +41,9 @@ Introduce el monto a convertir: 100
 6-Verificar el archivo JAR
 El archivo JAR ejecutable se encuentra en el directorio target/. Si todo ha funcionado correctamente, el archivo Conversor_de_Moneda-1.0-SNAPSHOT.jar estará listo para ser ejecutado.
 
-Estructura del Proyecto
-La estructura del proyecto es la siguiente:
-Conversor_de-_Moneda--ChallengeONE-Java-BE/
-├── pom.xml                # Archivo de configuración de Maven
-├── src/                   # Código fuente del proyecto
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── models/    # Modelos de datos (por ejemplo, ExchangeRateResponse.java)
-│   │   │   ├── services/  # Servicios (por ejemplo, ExchangeRateClient.java)
-│   │   │   └── utils/     # Utilidades (por ejemplo, CurrencyConverterUtil.java)
-├── target/                # Carpeta donde Maven coloca el JAR compilado
-├── .git/                  # Carpeta oculta con la configuración de git
-└── README.md              # Este archivo
+Estructura del Proyecto 
+![Estructura del Proyecto](estructura_proyecto.png)
+
 
 Dependencias
 Este proyecto utiliza las siguientes dependencias:
